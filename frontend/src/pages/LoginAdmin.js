@@ -5,7 +5,7 @@ export default function AccountPage() {
         <div className="bg-zinc-100 dark:bg-gray-900 flex-auto text-gray-900 dark:text-white flex flex-col">
             <Navbar />
             <section className="text-center my-16 mx-8 flex-auto">
-                <h1 className="text-5xl font-extrabold ">Bienvenido</h1>
+                <h1 className="text-5xl font-extrabold ">Bienvenido Administrador</h1>
 
                 <div className="flex min-h-full flex-col justify-center px-6  lg:px-8">
                     <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">

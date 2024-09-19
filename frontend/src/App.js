@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import AccountPage from "./pages/Account";
 import NotFoundPage from "./pages/NotFoundPage";
 import ThemeContext from "./context/ThemeContent";
+import LoginAdmin from "./pages/LoginAdmin";
 
 function App() {
   const [isDarkMode, isSetDarkMode] = useState(false);
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" element={<LandingPages />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/account" element={<AccountPage />} />
+            <Route path="/admin" element={<LoginAdmin />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Router>
